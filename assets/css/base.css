@@ -11,6 +11,9 @@ section {
 h2 {
   font-size: 400%;
   margin-bottom: 15px; }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 300%; } }
 
 p.lead {
   font-size: 150%;
@@ -18,6 +21,12 @@ p.lead {
   @media (max-width: 767px) {
     p.lead {
       font-size: 120%; } }
+
+p a {
+  color: white;
+  text-decoration: underline; }
+  p a:hover, p a:visited, p a:active, p a:focus {
+    color: lightgrey; }
 
 #hero-unit {
   background-image: url("../images/hero-unit-xs.jpg");
@@ -75,6 +84,10 @@ nav.navbar.navbar-default {
 
 #section-1 {
   background-color: #FDF3E7; }
+
+@media (max-width: 767px) {
+  .icon-section {
+    margin-bottom: 35px; } }
 
 .icon-section-last {
   margin-bottom: 50px; }
